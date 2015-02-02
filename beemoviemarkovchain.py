@@ -18,7 +18,8 @@ for i in range(len(wordList)):
 
 uniqueWordList = wordDictionary.keys()
 
-print wordDictionary
+#This was test code, but if you want to look at the dictionary produced, knock yourself out!
+#print wordDictionary
 
 for i in range(100):
     word = random.choice(uniqueWordList)
